@@ -1,0 +1,24 @@
+{
+  "name": "webaudio-server",
+  "version": "1.0.0",
+  "description": "Node.js server for webaudio and view experimentation",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node app.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jean-millot/web-playground.git"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "config": "2.0.1",
+    "express-vue": "5.7.1",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "ejs": "2.6.1",
+    "style-loader": "0.23.1",
+    "style-css": "1.0.2"
+  }
+}
